@@ -22,6 +22,7 @@ class Personnel(db.Model):
     last_update = db.Column(db.DateTime, nullable=False)
     
 
-
 def __repr__(self):
         return f'<Personnel {self.first_name} {self.last_name}>' 
+
+
