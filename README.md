@@ -1,2 +1,0 @@
-# Troop-Tracker
-Troop-Tracker
