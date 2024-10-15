@@ -7,8 +7,6 @@ metadata = MetaData()
 
 db = SQLAlchemy(metadata=metadata)
 
-<<<<<<< HEAD
-=======
 
 class Personnel(db.Model):
     __tablename__ = 'personnels'
@@ -27,4 +25,3 @@ class Personnel(db.Model):
 
 def __repr__(self):
         return f'<Personnel {self.first_name} {self.last_name}>' 
->>>>>>> 0cfda07cbd860465fa548b69994e254d36081727
